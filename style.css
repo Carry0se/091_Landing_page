@@ -1,0 +1,121 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.background-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.landing-page {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.navbar-items{
+    display: flex;
+    width: 45%;
+    height: 50%;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / -2;
+    grid-row: 2 / -2;
+}
+
+.main-content {
+    text-align: center;
+    color: white;
+}
+
+
+.decoration {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding: 1%;
+    width:fit-content;
+    border: solid rgba(255, 255, 255, 0.567) 1px;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.579);
+    font-family: sans-serif;
+}
+
+.login-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    margin-left: 25%;
+    margin-top: 1%;  
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;   
+    margin-right: 25%;
+    margin-top: 1%;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    line-height: 90%;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0px;
+    font-family: sans-serif;
+    color: rgba(240, 248, 255, 0.664);
+    line-height: 140%;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+}
